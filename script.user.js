@@ -50,6 +50,7 @@
     const clearButton = createEl('a', {
         id: 'clear-button',
         textContent: 'Clear chats',
+        style: 'margin-top: 2px;',
     });
 
     const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
