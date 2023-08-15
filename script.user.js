@@ -11,7 +11,6 @@
 // @author          mk_
 // @match           *://chat.openai.com/*
 // @require         https://cdn.jsdelivr.net/gh/kudoai/chatgpt.js@315fc8e62d4d3e82276fbb641128774a0d1c5219/dist/chatgpt-2.1.0.min.js
-// @grant           GM_info
 // @grant           GM_addStyle
 // @run-at          document-end
 // ==/UserScript==
