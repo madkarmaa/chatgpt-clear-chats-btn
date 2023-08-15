@@ -38,6 +38,10 @@
 .is-awaiting-confirm:hover {
     background-color: #B91C1C;
 }
+
+#trash-bin-svg {
+    margin-left: 2px;
+}
 `;
     GM_addStyle(CSS);
     await chatgpt.isLoaded();
@@ -53,6 +57,7 @@
     svg.setAttribute('height', '1em');
     svg.setAttribute('viewBox', '0 0 408.483 408.483');
     svg.setAttribute('fill', 'currentColor');
+    svg.setAttribute('id', 'trash-bin-svg');
 
     const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
     const innerG = document.createElementNS('http://www.w3.org/2000/svg', 'g');
@@ -94,7 +99,6 @@
             if (navLink.textContent.match(/.*Settings/)) {
                 separator = navLink.nextSibling.cloneNode(true);
                 clearButton.setAttribute('class', navLink.classList);
-                navLink.parentNode.style.margin = '2px 0'; // add v-margins to ensure consistency across all inserted buttons
                 break;
             }
 
