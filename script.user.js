@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            The return of the Clear Chats button
-// @icon            https://chat.openai.com/favicon-32x32.png
+// @icon            https://raw.githubusercontent.com/madkarmaa/chatgpt-clear-chats-btn/main/images/icon.png
 // @namespace       aB3Rt8yZuX6sDcV9nMjKq1wSxLpOnH4bUiGtRfEyWqAzXsCvBnMjKlQwPxErT7y
 // @source          https://github.com/madkarmaa/automatic-chatgpt-dan
 // @supportURL      https://github.com/madkarmaa/automatic-chatgpt-dan
