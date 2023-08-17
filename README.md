@@ -23,7 +23,7 @@ Install any userscript manager extension in your browser, such as **Tampermonkey
 
 ![screenshot](https://raw.githubusercontent.com/madkarmaa/chatgpt-clear-chats-btn/main/images/screenshot.png)
 
-![separator](https://raw.githubusercontent.com/madkarmaa/automatic-chatgpt-dan/master/images/line.png)
+![separator](https://raw.githubusercontent.com/madkarmaa/chatgpt-clear-chats-btn/main/images/line.png)
 
 ## 📂 Check out my other projects
 
