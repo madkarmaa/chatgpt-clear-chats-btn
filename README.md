@@ -22,3 +22,10 @@ Install any userscript manager extension in your browser, such as **Tampermonkey
 ## 📷 Screenshots
 
 ![screenshot](https://raw.githubusercontent.com/madkarmaa/chatgpt-clear-chats-btn/main/images/screenshot.png)
+
+![separator](https://raw.githubusercontent.com/madkarmaa/automatic-chatgpt-dan/master/images/line.png)
+
+## 📂 Check out my other projects
+
+**[Automatic ChatGPT DAN](https://github.com/madkarmaa/automatic-chatgpt-dan)**
+> Browser userscript to automatically send DAN messages to ChatGPT.
