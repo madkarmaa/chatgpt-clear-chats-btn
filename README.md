@@ -9,6 +9,17 @@
 
 OpenAI removed the shortcut button to clear all chats. I didn't like this change, so I brought it back, but made _better_ 😄
 
+This userscript also uses **[KudoAI/chatgpt.js](https://github.com/kudoai/chatgpt.js)**, so definitetly go check them out.
+
+<p align="center">
+  <a href="https://chatgpt.js.org">
+    <picture> 
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chatgptjs/chatgpt.js/main/media/images/chatgpt.js-logo-dark-mode-5995x619.png"> 
+      <img width=546 alt="chatgpt.js" src="https://raw.githubusercontent.com/chatgptjs/chatgpt.js/main/media/images/chatgpt.js-logo-light-mode-5995x619.png">
+    </picture>
+  </a>
+</p>
+
 ![separator](https://raw.githubusercontent.com/madkarmaa/chatgpt-clear-chats-btn/main/images/line.png)
 
 ## ⚙️ Installation
