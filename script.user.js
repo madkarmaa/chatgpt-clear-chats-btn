@@ -10,7 +10,7 @@
 // @description     OpenAI removed the shortcut button to clear all chats. I didn't like this change
 // @author          mk_
 // @match           *://chat.openai.com/*
-// @require         https://cdn.jsdelivr.net/gh/kudoai/chatgpt.js@2535c87dc1204a4dbe464b69450bfff6197d3d99/dist/chatgpt-2.3.5.min.js
+// @require         https://cdn.jsdelivr.net/gh/kudoai/chatgpt.js@82fb4d225ad8bfaf5ed3fd7de57cc6cc69bb47bb/dist/chatgpt-2.4.1.min.js
 // @grant           GM_addStyle
 // @run-at          document-end
 // ==/UserScript==
