@@ -6,11 +6,11 @@
 // @supportURL      https://github.com/madkarmaa/chatgpt-clear-chats-btn
 // @updateURL       https://github.com/madkarmaa/chatgpt-clear-chats-btn/raw/main/script.user.js
 // @downloadURL     https://github.com/madkarmaa/chatgpt-clear-chats-btn/raw/main/script.user.js
-// @version         1.2.0
+// @version         1.3.0
 // @description     OpenAI removed the shortcut button to clear all chats. I didn't like this change
 // @author          mk_
 // @match           *://chat.openai.com/*
-// @require         https://cdn.jsdelivr.net/gh/kudoai/chatgpt.js@82fb4d225ad8bfaf5ed3fd7de57cc6cc69bb47bb/dist/chatgpt-2.4.1.min.js
+// @require         https://cdn.jsdelivr.net/gh/kudoai/chatgpt.js@06d15c2e7421874a6c8743e51116872417af5e85/dist/chatgpt-2.5.2.min.js
 // @grant           GM_addStyle
 // @run-at          document-end
 // ==/UserScript==
@@ -24,7 +24,7 @@
         return el;
     }
 
-    const CSS = `
+    GM_addStyle(`
 .is-awaiting-confirm {
     display: flex;
 	align-items: center;
@@ -40,18 +40,16 @@
 }
 
 #trash-bin-svg {
-    margin-left: -0.25px;
-    margin-right: 1.93px;
+    margin-left: 2.4px;
+    margin-right: 1.35px;
 }
-`;
-    GM_addStyle(CSS);
+`);
     await chatgpt.isLoaded();
 
     const menuBtn = document.querySelector('nav button[id*="headless"]');
     const clearButton = createEl('a', {
         id: 'clear-button',
         textContent: 'Clear chats',
-        style: 'margin-top: 2px;',
     });
 
     const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
